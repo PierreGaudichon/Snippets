@@ -12,3 +12,9 @@
   fun.apply @, [a, b]
   fun.call @, a, b
 ```
+
+### Arguments as an array
+[Source](https://shifteleven.com/articles/2007/06/28/array-like-objects-in-javascript/)
+```coffee
+args = Array.prototype.slice.call arguments
+```
