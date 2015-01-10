@@ -18,3 +18,9 @@
 ```coffee
 args = Array.prototype.slice.call arguments
 ```
+
+### Random hexadecimal color
+[Source](http://www.paulirish.com/2009/random-hex-color-code-snippets/)
+```coffee
+'#'+Math.floor(Math.random()*16777215).toString(16)
+```
