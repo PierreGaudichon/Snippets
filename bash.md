@@ -16,3 +16,9 @@ browserify \
 		--lodash="_" \
 	src/index.coffee > public/app.js
 ```
+
+### Thepiratebay
+
+```bash
+echo "104.28.4.42     thepiratebay.se" >> /etc/hosts
+```
