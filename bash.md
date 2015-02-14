@@ -17,6 +17,12 @@ browserify \
 	src/index.coffee > public/app.js
 ```
 
+### Compile coffee
+
+```bash
+coffee --compile --output bin/ src/
+```
+
 ### Thepiratebay
 
 ```bash
